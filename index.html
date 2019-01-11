@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/logic.js"></script>
+    <script src="js/controller.js"></script>
+</head>
+<body>
+    <div id="container">
+        <div id= "inputDiv">
+            <label id="inputString"></label>
+            <input type="text" id="textBox" placeholder="0" value="" >            
+        </div>
+        <div id= "buttons">
+            <div class="btnRow">
+                <button id="average" class="btn" accesskey="%" >&percnt;</button>
+                <button id="squr" class="btn" accesskey="r">&radic;</button>
+                <button id="sqr" class="btn" accesskey="s">X<sup>2</sup></button>
+                <button id="fraction" class="btn" accesskey="f">1/x</button>
+            </div>
+            <div class="btnRow">
+                <button id="clearEntry" class="btn" accesskey="">CE</button>
+                <button id="clear" class="btn" accesskey="c">C</button>
+                <button id="del" class="btn" accesskey="b">&larr;</button>
+                <button id="/" class="btn" accesskey="/">&divide;</button>
+            </div>
+            <div class="btnRow">
+                <button class="btn" accesskey="7">7</button>
+                <button class="btn" accesskey="8">8</button>
+                <button class="btn" accesskey="9">9</button>
+                <button id="*" class="btn" accesskey="*">&times;</button>
+            </div>
+            <div class="btnRow">
+                <button class="btn" accesskey="4">4</button>
+                <button class="btn" accesskey="5" accesskey="%">5</button>
+                <button class="btn" accesskey="6">6</button>
+                <button id="-" class="btn" accesskey="-">&minus;</button>
+            </div>
+            <div class="btnRow">
+                <button class="btn" accesskey="1">1</button>
+                <button class="btn" accesskey="2">2</button>
+                <button class="btn" accesskey="3">3</button>
+                <button id="+" class="btn" accesskey="+">&plus;</button>
+            </div>
+            <div class="btnRow">
+                <button id="plusMinus" class="btn" accesskey="!">&PlusMinus;</button>
+                <button class="btn" accesskey="0">0</button>
+                <button class="btn" accesskey=".">.</button>
+                <button id="equal" class="btn" accesskey="=">&equals;</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

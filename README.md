@@ -1,2 +1,2 @@
 # Calculator
-calc build in javascript, HTML and css.
+A calculator build with javascript, HTML and css.
